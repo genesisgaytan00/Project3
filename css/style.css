@@ -1,0 +1,56 @@
+
+body{
+  background-color: tan;
+  color:saddlebrown;
+  text-align: center;
+}
+
+img{
+    height: 60vh;
+    width: 50vw;
+    align-content: center;
+    border: 10px dotted saddlebrown;
+    border-radius: 50%;
+  }
+iframe{
+  height: 60vh;
+  width: 50vw;
+}
+h1{
+  font-size: 3rem;
+  color: saddlebrown;
+  padding: 2rem;
+  transition: transform 2s ease;
+  font-family: Times, "Times New Roman";
+  text-align: center;
+  font-weight:bolder;
+}
+nav li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+nav a {
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  padding: 2%;
+  color: white;
+}
+
+nav a:hover {
+  background-color:saddlebrown;
+  color:tan;
+}
+p{
+  line-height:2;
+  font-size: 20px;
+}
+.left {
+  float: left;
+  margin-right: 30%;
+  }
+  
+  .right {
+  float: right;
+  margin-left: 30%;
+  }
