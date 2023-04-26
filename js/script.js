@@ -3,7 +3,7 @@ function initMap(){
     let map = new google.maps.Map(
         document.getElementById('map'),{center:iit,zoom: 16}
     );
-    let marker = new google.maps.Marker({position: iit, map: map})
+    let marker = new google.maps.Marker({position: iit, map: map});
 
 
 
