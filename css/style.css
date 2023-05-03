@@ -12,6 +12,9 @@ img{
     border: 10px dotted saddlebrown;
     border-radius: 50%;
   }
+img:hover {
+  transform: scale(1.1);
+}
 iframe{
   height: 60vh;
   width: 50vw;
@@ -57,4 +60,5 @@ p{
   #map {
     height: 400px; /* The height is 400 pixels */
     width: 100%; /* The width is the width of the web page */
-}
+    border: 5px solid saddlebrown;
+  }
